@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CCC;
+}
+
+header {
+    background-color: #2E948A;
+    padding-top: 5px;
+}
+
+.wrapper-header {
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.wrapper-header .logo-header img {
+    max-height: 70px;
+}
+
+.wrapper-header .menu-nav {
+    margin: auto 0;
+}
+
+.wrapper-header .menu-nav ul li {
+    display: inline;
+    margin: 0 15px;
+    list-style-type: none;
+}
+
+.wrapper-header .menu-nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+
+.wrapper-header .menu-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin-top: 50px;
+}
+
+
+footer {
+    background-color: #419488;
+}
+
+.wrapper-footer{
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.wrapper-footer .logo-footer img {
+    max-height: 100px;
+}
+
+.wrapper-footer .nav-footer{
+    list-style-type: none;
+    margin: auto 0;
+}
+
+.wrapper-footer .nav-footer li {
+    margin: 5px;
+}
+
+.wrapper-footer .nav-footer li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.wrapper-footer .container-botoes-footer {
+    margin: auto 0
+}
+
+.wrapper-footer .container-botoes-footer a {
+    padding: 3px 10px;
+    margin: 6px 0;
+    border: white solid 2px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
