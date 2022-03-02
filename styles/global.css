@@ -16,11 +16,12 @@ header {
 }
 
 .wrapper-header {
-    max-width: 1400px;
+    max-width: 1200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     justify-items: center;
     margin: 0 auto;
+    padding: 0 30px
 }
 
 .wrapper-header .logo-header img {
@@ -53,11 +54,12 @@ footer {
 }
 
 .wrapper-footer{
-    max-width: 1400px;
+    max-width: 1200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     justify-items: center;
     margin: 0 auto;
+    padding: 0 30px
 }
 
 .wrapper-footer .logo-footer img {
@@ -280,4 +282,78 @@ footer {
 .mais-conteudo a:hover {
     color: white;
     background-color: #FF4081;
+}
+
+.wrapper-cursos {
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.wrapper-cursos h1 {
+    font-size: 50px;
+    color: #FF4081;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.wrapper-cursos h3 {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+
+.container-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.curso {
+    display: flex;
+    padding: 50px 0;
+    border-top: 2px solid #C4C4C4;
+}
+
+.curso:first-child {
+    display: flex;
+    padding: 50px 0;
+    border-top: none;
+}
+
+.descricao-curso {
+    min-width: 300px;
+}
+
+.curso h2 {
+    font-size: 35px;
+    color: #FF4081;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.curso p {
+    margin-bottom: 30px;
+}
+
+.curso a{
+    background-color: #419488;
+    padding: 3px 10px;
+    border: #419488 solid 2px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+    margin: 30px 0;
+}
+
+.curso a:hover {
+    background-color: white;
+    color: #419488;
+}
+
+.img-curso img {
+    max-width: 300px;
+    margin: 0 25px;
 }
