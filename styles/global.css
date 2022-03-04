@@ -4,6 +4,8 @@
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: black;
 }
 
 body {
@@ -267,7 +269,11 @@ footer {
     font-size: 15px;
 }
 
-.mais-conteudo a{
+.mais-conteudo a {
+    text-decoration: none;
+}
+
+.mais-conteudo #botao-blog {
     display: block;
     width: fit-content;
     color: #FF4081;
@@ -279,7 +285,7 @@ footer {
     margin: 0 auto;
 }
 
-.mais-conteudo a:hover {
+.mais-conteudo #botao-blog:hover {
     color: white;
     background-color: #FF4081;
 }
